@@ -7,6 +7,7 @@ import OurTeam from '@/components/home/our-team'
 import Mission from '@/components/home/mission'
 import RicochetBio from '@/components/home/ricochet-bio'
 import Podcasts from '@/components/home/podcasts'
+import Contact from '@/components/home/contact'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <RicochetBio />
         <Podcasts />
         <OurTeam />
+        <Contact />
         <Footer />
       </div>
     </>

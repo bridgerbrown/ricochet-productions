@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Landing(){
     return(
-        <main className="h-screen w-screen pb-24 bg-gray-200 flex items-center justify-center">
+        <main className="h-screen w-screen pb-24 bg-gray-100 flex items-center justify-center">
             <div className="w-4/5 flex justify-center">
                 <div className="w-1/2 flex justify-center">
-                    <div className="ml-24 w-96 h-96 bg-slate-100"></div>
+                    <div className="ml-24 w-96 h-96 bg-slate-400"></div>
                 </div>
                 <div className="space-y-4 text-xl mx-12 w-1/2 px-4">
                     <h1 className="text-slate-800 font-bold text-4xl">Ricochet Productions</h1>
