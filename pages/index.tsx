@@ -5,6 +5,8 @@ import Footer from '@/components/footer'
 import Landing from '@/components/home/landing'
 import OurTeam from '@/components/home/our-team'
 import Mission from '@/components/home/mission'
+import RicochetBio from '@/components/home/ricochet-bio'
+import Podcasts from '@/components/home/podcasts'
 
 export default function Home() {
   return (
@@ -12,13 +14,15 @@ export default function Home() {
       <Head>
         <title>Ricochet Productions</title>
       </Head>
-      <main className='bg-white relative w-screen min-h-screen'>
+      <div className='bg-white relative w-screen min-h-screen'>
         <Navbar />
         <Landing />
         <Mission />
+        <RicochetBio />
+        <Podcasts />
         <OurTeam />
         <Footer />
-      </main>
+      </div>
     </>
   )
 }
