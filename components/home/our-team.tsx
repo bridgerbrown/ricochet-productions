@@ -4,12 +4,12 @@ import Image from "next/image";
 export default function OurTeam(props: any){
     return(
         <main className="w-screen relative pb-60">
-            <div className="pt-24 pb-32 bg-gray-300 flex-col items-center flex justify-center ">
-                <div className="pb-16">
+            <div className="pt-40 pb-40 bg-gray-300 flex-col items-center flex justify-center ">
+                <div className="pb-20">
                     <h1 className="tracking-wide drop-shadow-sm text-slate-900 font-semibold text-4xl">Our Team</h1>
                 </div>
 
-                <div className="space-y-24 flex flex-col justify-center items-center">
+                <div className="space-y-28 flex flex-col justify-center items-center">
                     <section className="flex justify-center w-10/12">
                         <Image
                             src="/rob-headshot.png"
