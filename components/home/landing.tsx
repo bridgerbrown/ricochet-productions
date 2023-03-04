@@ -8,7 +8,7 @@ export default function Landing(){
                     <div className="ml-24 w-full h-full bg-slate-400"></div>
                 </div>
                 <div className="space-y-4 text-xl mx-12 w-1/2 px-4">
-                    <h1 className="text-slate-100 font-bold text-5xl">Ricochet Productions</h1>
+                    <h1 className="text-blue-300 font-bold text-5xl">Ricochet Productions</h1>
                     <h2 className="text-2xl text-slate-200">Storytelling through audio</h2>
                     <h3 className="text-slate-400 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloribus molestias! Vero consectetur laudantium cumque.</h3>
                 </div>
