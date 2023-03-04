@@ -6,8 +6,9 @@ import Landing from '@/components/home/landing'
 import OurTeam from '@/components/home/our-team'
 import Mission from '@/components/home/mission'
 import RicochetBio from '@/components/home/ricochet-bio'
-import Podcasts from '@/components/home/podcasts'
+import Podcasts from '@/components/unused/podcasts'
 import Contact from '@/components/home/contact'
+import PodcastList from '@/components/home/podcast-list'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         <Landing />
         <Mission />
         <RicochetBio />
-        <Podcasts />
+        <PodcastList />
         <OurTeam />
         <Contact />
         <Footer />
