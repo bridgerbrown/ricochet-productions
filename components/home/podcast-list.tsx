@@ -9,9 +9,9 @@ export default function PodcastList(props: any){
 
     return(
         <section className="w-screen relative">
-            <div className="pt-40 pb-52 bg-gray-200 flex-col items-center flex justify-center ">
+            <div className="pt-40 pb-52 bg-slate-800 flex-col items-center flex justify-center ">
                 <div className="pb-28">
-                    <h1 className="tracking-wide drop-shadow-sm text-slate-900 font-semibold text-4xl">Podcasts</h1>
+                    <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Podcasts</h1>
                 </div>
 
                 <div className="space-y-32">
@@ -26,9 +26,9 @@ export default function PodcastList(props: any){
                             />
                         </div>
                         <div className={podcastTextStyling}>
-                            <h2 className="text-2xl font-semibold">Podcast #1</h2>
-                            <h3 className="pb-2 text-lg italic">Genre Subtitle</h3>
-                            <p className="font-light">
+                            <h2 className="text-blue-300 text-2xl font-semibold">Podcast #1</h2>
+                            <h3 className="text-slate-300 pb-2 text-lg italic">Genre Subtitle</h3>
+                            <p className="text-slate-300 font-light">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque quasi voluptatibus atque itaque doloremque ratione, dicta incidunt natus deserunt in neque suscipit explicabo doloribus adipisci totam aut tempore ea!
                                 <br />
                                 <br />
@@ -53,9 +53,9 @@ export default function PodcastList(props: any){
                             />
                         </div>
                         <div className={podcastTextStyling}>
-                            <h2 className="text-2xl font-semibold">Podcast #2</h2>
-                            <h3 className="pb-2 text-lg italic">Genre Subtitle</h3>
-                            <p className="font-light">
+                        <h2 className="text-blue-300 text-2xl font-semibold">Podcast #2</h2>
+                            <h3 className="text-slate-300 pb-2 text-lg italic">Genre Subtitle</h3>
+                            <p className="text-slate-300 font-light">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque quasi voluptatibus atque itaque doloremque ratione, dicta incidunt natus deserunt in neque suscipit explicabo doloribus adipisci totam aut tempore ea!
                                 <br />
                                 <br />
@@ -80,9 +80,9 @@ export default function PodcastList(props: any){
                             />
                         </div>
                         <div className={podcastTextStyling}>
-                            <h2 className="text-2xl font-semibold">Podcast #3</h2>
-                            <h3 className="pb-2 text-lg italic">Genre Subtitle</h3>
-                            <p className="font-light">
+                        <h2 className="text-blue-300 text-2xl font-semibold">Podcast #3</h2>
+                            <h3 className="text-slate-300 pb-2 text-lg italic">Genre Subtitle</h3>
+                            <p className="text-slate-300 font-light">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque quasi voluptatibus atque itaque doloremque ratione, dicta incidunt natus deserunt in neque suscipit explicabo doloribus adipisci totam aut tempore ea!
                                 <br />
                                 <br />

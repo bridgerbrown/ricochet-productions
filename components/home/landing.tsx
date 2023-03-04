@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Landing(){
     return(
-        <main className="h-screen w-screen pb-24 bg-gray-900 flex items-center justify-center">
+        <main className="h-screen w-screen pb-24 bg-slate-900 flex items-center justify-center">
             <div className="w-4/5 flex justify-center">
                 <div className="w-1/2 h-92 flex justify-center">
                     <div className="ml-24 w-full h-full bg-slate-400"></div>

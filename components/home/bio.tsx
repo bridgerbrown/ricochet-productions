@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
-export default function RicochetBio(props: any){
-    const pStyling: string = `text-lg font-light text-slate-700`
-    const headingStyling: string = `text-slate-900 text-2xl font-semibold`
+export default function Bio(props: any){
+    const pStyling: string = `text-lg font-light text-slate-400`
+    const headingStyling: string = `text-slate-200 text-2xl font-semibold`
 
     return(
         <section className="w-screen relative">
-            <div className="pt-40 pb-52 bg-gray-300 flex-col items-center flex justify-center ">
+            <div className="pt-40 pb-52 bg-slate-900 flex-col items-center flex justify-center ">
                 <div className="pb-28">
-                    <h1 className="tracking-wide drop-shadow-sm text-slate-900 font-semibold text-4xl">What We Do</h1>
+                    <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">What We Do</h1>
                 </div>
 
                 <section className="space-y-32">
