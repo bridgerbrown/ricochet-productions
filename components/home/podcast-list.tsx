@@ -2,11 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 export default function PodcastList(props: any){
-    const pStyling: string = `text-lg font-light text-slate-700`
-    const headingStyling: string = `text-slate-900 text-2xl font-semibold`
-    const sectionStyling: string = `mb-8 flex w-4/5 space-x-4 justify-center`
-    const imgDivStyling: string = `w-73 h-73 flex justify-center items-center`
-    const podcastImgStyling: string = `hover:scale-105 transition ease-in-out cursor-pointer w-88 h-88 object-cover rounded-md shadow-lg`
+    const podcastImgStyling: string = `sm:mb-4 md:mb-0hover:scale-105 transition ease-in-out cursor-pointer w-88 h-88 object-cover rounded-md shadow-lg`
+    const podcastSectionStyling: string = `sm:flex-col flex md:flex-row sm:px-16 md:px-6 xl:px-48 2xl:px-60 w-screen justify-center items-center`
+    const podcastTextStyling: string = `sm:text-center sm:w-full sm:flex-col sm:justify-center sm:items-center md:text-left space-y-1 sm:pl-0 md:pl-10 lg:pl-12 md:w-2/3`
+    const podcastImgSectionStyling: string = `sm:w-1/2 md:w-1/3 flex justify-center`
 
     return(
         <section className="w-screen relative">
@@ -16,8 +15,8 @@ export default function PodcastList(props: any){
                 </div>
 
                 <div className="space-y-32">
-                    <section className="flex px-60 w-screen justify-center">
-                        <div className="w-1/3 flex justify-center">
+                    <section className={podcastSectionStyling}>
+                        <div className={podcastImgSectionStyling}>
                             <Image
                                 src="/podcasts/martini-shot.jpeg"
                                 width={896}
@@ -26,7 +25,7 @@ export default function PodcastList(props: any){
                                 className={podcastImgStyling}
                             />
                         </div>
-                        <div className="space-y-1 pl-12 w-2/3">
+                        <div className={podcastTextStyling}>
                             <h2 className="text-2xl font-semibold">Podcast #1</h2>
                             <h3 className="pb-2 text-lg italic">Genre Subtitle</h3>
                             <p className="font-light">
@@ -43,8 +42,8 @@ export default function PodcastList(props: any){
                         </div>
                     </section>
 
-                    <section className="flex px-60 w-screen justify-center">
-                        <div className="w-1/3 flex justify-center">
+                    <section className={podcastSectionStyling}>
+                        <div className={podcastImgSectionStyling}>
                             <Image
                                 src="/podcasts/ayaan-hirsi.jpeg"
                                 width={896}
@@ -53,7 +52,7 @@ export default function PodcastList(props: any){
                                 className={podcastImgStyling}
                             />
                         </div>
-                        <div className="space-y-1 pl-12 w-2/3">
+                        <div className={podcastTextStyling}>
                             <h2 className="text-2xl font-semibold">Podcast #2</h2>
                             <h3 className="pb-2 text-lg italic">Genre Subtitle</h3>
                             <p className="font-light">
@@ -70,8 +69,8 @@ export default function PodcastList(props: any){
                         </div>
                     </section>
 
-                    <section className="flex px-60 w-screen justify-center">
-                        <div className="w-1/3 flex justify-center">
+                    <section className={podcastSectionStyling}>
+                        <div className={podcastImgSectionStyling}>
                             <Image
                                 src="/podcasts/ricochet-superfeed.png"
                                 width={896}
@@ -80,7 +79,7 @@ export default function PodcastList(props: any){
                                 className={podcastImgStyling}
                             />
                         </div>
-                        <div className="space-y-1 pl-12 w-2/3">
+                        <div className={podcastTextStyling}>
                             <h2 className="text-2xl font-semibold">Podcast #3</h2>
                             <h3 className="pb-2 text-lg italic">Genre Subtitle</h3>
                             <p className="font-light">
