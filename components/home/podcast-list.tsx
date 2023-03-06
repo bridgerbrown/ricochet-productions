@@ -1,11 +1,32 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Image from "next/image";
 
 export default function PodcastList(props: any){
-    const podcastImgStyling: string = `sm:mb-4 md:mb-0hover:scale-105 transition ease-in-out cursor-pointer w-88 h-88 object-cover rounded-md shadow-lg`
-    const podcastSectionStyling: string = `sm:flex-col flex md:flex-row sm:px-16 md:px-6 xl:px-48 2xl:px-60 w-screen justify-center items-center`
+    const podcastImgStyling: string = `sm:mb-4 md:mb-0 hover:scale-105 transition ease-in-out cursor-pointer w-88 h-88 object-cover rounded-md shadow-lg`
+    const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out sm:flex-col flex md:flex-row sm:px-16 md:px-6 xl:px-48 2xl:px-60 w-screen justify-center items-center`
     const podcastTextStyling: string = `sm:text-center sm:w-full sm:flex-col sm:justify-center sm:items-center md:text-left space-y-1 sm:pl-0 md:pl-10 lg:pl-12 md:w-2/3`
     const podcastImgSectionStyling: string = `sm:w-1/2 md:w-1/3 flex justify-center`
+
+    function fadeIn() {
+        let reveals = document.querySelectorAll("#section");
+        for (let i = 0; i < reveals.length; i++) {
+          let windowHeight = window.innerHeight;
+          let elementTop = reveals[i].getBoundingClientRect().top;
+          let elementVisible = 150;
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("opacity-100");
+            reveals[i].classList.remove("opacity-0");
+          } else {
+            reveals[i].classList.remove("opacity-100");
+            reveals[i].classList.add("opacity-0");
+          }
+        }
+      }
+  
+      useEffect(() => {
+        window.addEventListener("scroll", fadeIn)
+        fadeIn()
+      }, [])
 
     return(
         <section id="podcasts" className="w-screen relative">
@@ -15,7 +36,7 @@ export default function PodcastList(props: any){
                 </div>
 
                 <div className="space-y-32">
-                    <section className={podcastSectionStyling}>
+                    <section id="section" className={podcastSectionStyling}>
                         <div className={podcastImgSectionStyling}>
                             <Image
                                 src="/podcasts/martini-shot.jpeg"
@@ -42,7 +63,7 @@ export default function PodcastList(props: any){
                         </div>
                     </section>
 
-                    <section className={podcastSectionStyling}>
+                    <section id="section" className={podcastSectionStyling}>
                         <div className={podcastImgSectionStyling}>
                             <Image
                                 src="/podcasts/ayaan-hirsi.jpeg"
@@ -69,7 +90,7 @@ export default function PodcastList(props: any){
                         </div>
                     </section>
 
-                    <section className={podcastSectionStyling}>
+                    <section id="section" className={podcastSectionStyling}>
                         <div className={podcastImgSectionStyling}>
                             <Image
                                 src="/podcasts/ricochet-superfeed.png"

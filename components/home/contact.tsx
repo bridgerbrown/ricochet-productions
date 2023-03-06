@@ -9,7 +9,7 @@ export default function Contact(props: any){
     }
 
     return(
-        <section id="contact" className="w-screen pt-28 pb-72 bg-slate-900">
+        <section id="contact" className="w-screen pt-28 pb-72 bg-slate-800">
             <div className="px-48 text-center">
                 <div className="pb-20">
                     <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Contact</h1>

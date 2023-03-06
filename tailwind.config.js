@@ -12,6 +12,9 @@ module.exports = {
       },
       height: {
         '73': '18.5rem'
+      },
+      fontFamily: {
+        manrope: ['Manrope', 'sans-serif']
       }
     },
   },

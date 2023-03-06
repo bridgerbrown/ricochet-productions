@@ -1,7 +1,28 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Image from "next/image";
 
 export default function OurTeam(props: any){
+    function fadeIn() {
+        let reveals = document.querySelectorAll("#section");
+        for (let i = 0; i < reveals.length; i++) {
+          let windowHeight = window.innerHeight;
+          let elementTop = reveals[i].getBoundingClientRect().top;
+          let elementVisible = 150;
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("opacity-100");
+            reveals[i].classList.remove("opacity-0");
+          } else {
+            reveals[i].classList.remove("opacity-100");
+            reveals[i].classList.add("opacity-0");
+          }
+        }
+      }
+  
+      useEffect(() => {
+        window.addEventListener("scroll", fadeIn)
+        fadeIn()
+      }, [])
+
     return(
         <section id="team" className="w-screen relative">
             <div className="pt-40 pb-40 bg-slate-900 flex-col items-center flex justify-center ">
@@ -10,7 +31,7 @@ export default function OurTeam(props: any){
                 </div>
 
                 <div className="space-y-32 flex flex-col justify-center items-center">
-                    <section className="flex justify-center w-10/12">
+                    <section id="section" className="duration-700 transition-fade ease-in-out flex justify-center w-10/12">
                         <Image
                             src="/rob-headshot.png"
                             width={896}
@@ -35,7 +56,7 @@ export default function OurTeam(props: any){
                         </div>
                     </section>
 
-                    <section className="flex justify-center w-10/12">
+                    <section id="section" className="duration-700 transition-fade ease-in-out flex justify-center w-10/12">
                         <div className="space-y-1 text-xl w-1/2 pr-12">
                             <h1 className="drop-shadow-xs text-slate-100 text-2xl font-semibold">Bob Long</h1>
                             <h2 className="italic tracking-wide text-slate-200 text-lg pb-2">Producer</h2>
@@ -60,7 +81,7 @@ export default function OurTeam(props: any){
                         />
                     </section>
 
-                    <section className="flex justify-center w-10/12">
+                    <section id="section" className="duration-700 transition-fade ease-in-out flex justify-center w-10/12">
                         <Image
                             src="/rob-headshot.png"
                             width={896}
