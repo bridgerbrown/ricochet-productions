@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function OurTeam(props: any){
     return(
-        <section className="w-screen relative">
+        <section id="team" className="w-screen relative">
             <div className="pt-40 pb-40 bg-slate-900 flex-col items-center flex justify-center ">
-                <div className="pb-28">
+                <div className="pb-20">
                     <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Our Team</h1>
                 </div>
 

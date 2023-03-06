@@ -8,9 +8,9 @@ export default function PodcastList(props: any){
     const podcastImgSectionStyling: string = `sm:w-1/2 md:w-1/3 flex justify-center`
 
     return(
-        <section className="w-screen relative">
-            <div className="pt-40 pb-52 bg-slate-800 flex-col items-center flex justify-center ">
-                <div className="pb-28">
+        <section id="podcasts" className="w-screen relative">
+            <div className="pt-40 pb-52 bg-slate-900 flex-col items-center flex justify-center ">
+                <div className="pb-20">
                     <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Podcasts</h1>
                 </div>
 
