@@ -15,6 +15,9 @@ module.exports = {
       },
       fontFamily: {
         manrope: ['Manrope', 'sans-serif']
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       }
     },
   },

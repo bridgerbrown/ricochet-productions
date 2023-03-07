@@ -13,11 +13,11 @@ export default function Navbar(){
                     width={3374}
                     height={829}
                     alt="ricochet productions logo"
-                    className="w-11/12"
+                    className="w-10/12"
                 />
                 {/* <h1 className="text-blue-300 text-2xl font-base tracking-wide">Ricochet Productions</h1> */}
             </div>
-            <div className="flex space-x-4">
+            <div className="flex mt-2 space-x-4">
                 <a href="#navbar" className={navItemStyle}>
                     Home
                 </a>

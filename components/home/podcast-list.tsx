@@ -32,7 +32,7 @@ export default function PodcastList(props: any){
         <section id="podcasts" className="w-screen relative">
             <div className="pt-40 pb-52 bg-slate-900 flex-col items-center flex justify-center ">
                 <div className="pb-20">
-                    <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Podcasts</h1>
+                    <h1 className="border-b-4 tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Podcasts</h1>
                 </div>
 
                 <div className="space-y-32">

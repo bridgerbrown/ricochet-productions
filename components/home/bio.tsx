@@ -33,7 +33,7 @@ export default function Bio(props: any){
             {/* <div className="bottom-12 right-24 absolute w-96 h-96 rounded-full bg-blue-900 opacity-5"></div> */}
             <div className="pt-40 pb-52 bg-slate-900 flex-col items-center flex justify-center ">
                 <div className="pb-20">
-                    <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">What We Do</h1>
+                    <h1 className="border-b-4 tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">What We Do</h1>
                 </div>
 
                 <section className="space-y-32">
