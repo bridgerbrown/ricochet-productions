@@ -2,7 +2,7 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import localFont from 'next/font/local'
 
-const Manrope = localFont({ src: [
+const manrope = localFont({ src: [
   {
     path: '../public/fonts/manrope/regular.otf',
     weight: '400',
@@ -28,11 +28,12 @@ const Manrope = localFont({ src: [
     style: 'normal',
   },
 ],
+variable: '--font-manrope'
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={Manrope.className}>
+    <main className={`${manrope.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
   )
