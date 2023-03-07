@@ -2,10 +2,10 @@ import React, {useEffect} from "react";
 import Image from "next/image";
 
 export default function PodcastList(props: any){
-    const podcastImgStyling: string = `sm:mb-4 md:mb-0 hover:scale-105 transition ease-in-out cursor-pointer w-88 h-88 object-cover rounded-md shadow-lg`
+    const podcastImgStyling: string = `sm:mb-4 md:mb-0 hover:scale-105 transition ease-in-out cursor-pointer sm:w-80 md:w-96 2xl:w-96 h-88 object-cover rounded-md shadow-lg`
     const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out sm:flex-col flex md:flex-row sm:px-16 md:px-6 xl:px-60 w-screen justify-center items-center`
     const podcastTextStyling: string = `sm:text-center sm:w-full sm:flex-col sm:justify-center sm:items-center md:text-left space-y-1 sm:pl-0 md:pl-10 lg:pl-12 md:w-2/3`
-    const podcastImgSectionStyling: string = `sm:w-1/2 md:w-1/4 xl:w-1/8 flex justify-center`
+    const podcastImgSectionStyling: string = `sm:w-1/2 2xl:w-1/4 flex justify-center`
 
     function fadeIn() {
         let reveals = document.querySelectorAll("#section");
