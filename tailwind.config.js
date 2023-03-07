@@ -14,7 +14,7 @@ module.exports = {
         '73': '18.5rem'
       },
       fontFamily: {
-        sans: ['var(--font-manrope)']
+        manrope: ['var(--font-manrope)']
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
