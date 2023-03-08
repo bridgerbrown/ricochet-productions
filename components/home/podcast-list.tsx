@@ -66,7 +66,7 @@ export default function PodcastList(props: any){
                     <section id="section" className={podcastSectionStyling}>
                         <div className={podcastImgSectionStyling}>
                             <Image
-                                src="/podcasts/ayaan-hirsi.jpeg"
+                                src="/podcasts/martini-shot.jpeg"
                                 width={896}
                                 height={1204}
                                 alt="rob long headshot"
@@ -93,7 +93,7 @@ export default function PodcastList(props: any){
                     <section id="section" className={podcastSectionStyling}>
                         <div className={podcastImgSectionStyling}>
                             <Image
-                                src="/podcasts/ricochet-superfeed.png"
+                                src="/podcasts/martini-shot.jpeg"
                                 width={896}
                                 height={1204}
                                 alt="rob long headshot"
