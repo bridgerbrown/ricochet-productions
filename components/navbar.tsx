@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar(){
-    const navItemStyle: string = `text-slate-100 hover:transition hover:opacity-80 text-lg font-light tracking-wider font-sans`
+    const navItemStyle: string = `text-slate-100 hover:transition hover:opacity-80 text-base md:text-lg font-light tracking-wider font-sans`
 
     return(
         <nav id="navbar" className="pr-8 flex justify-between items-center bg-slate-900 h-20 relative w-screen">
