@@ -2,10 +2,10 @@ import React, {useEffect} from "react";
 import Image from "next/image";
 
 export default function PodcastList(props: any){
-    const podcastImgStyling: string = `sm:mb-4 md:mb-0 hover:scale-105 transition ease-in-out cursor-pointer sm:w-80 md:w-96 2xl:w-96 h-88 object-cover rounded-md shadow-lg`
-    const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out sm:flex-col flex md:flex-row sm:px-16 md:px-6 xl:px-60 w-screen justify-center items-center`
-    const podcastTextStyling: string = `sm:text-center sm:w-full sm:flex-col sm:justify-center sm:items-center md:text-left space-y-1 sm:pl-0 md:pl-10 lg:pl-12 md:w-2/3`
-    const podcastImgSectionStyling: string = `sm:w-1/2 2xl:w-1/4 flex justify-center`
+    const podcastImgStyling: string = `mb-4 sm:mb-0 hover:scale-105 transition ease-in-out cursor-pointer w-80 sm:w-96 2xl:w-96 h-88 object-cover rounded-md shadow-lg`
+    const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out flex-col sm:flex-row flex md:flex-row px-4 sm:px-6 xl:px-60 w-screen justify-center items-center`
+    const podcastTextStyling: string = `text-center sm:text-left w-full sm:flex-col justify-center items-center sm:items-left md:text-left space-y-1 pl-0 sm:pl-10 lg:pl-12 md:w-2/3`
+    const podcastImgSectionStyling: string = `w-1/2 2xl:w-1/4 flex justify-center`
 
     function fadeIn() {
         let reveals = document.querySelectorAll("#section");

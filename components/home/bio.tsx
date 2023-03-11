@@ -36,42 +36,42 @@ export default function Bio(props: any){
                     <h1 className="border-b-4 tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">What We Do</h1>
                 </div>
 
-                <section className="space-y-32">
-                    <div id="section" className="duration-700 transition-fade ease-in-out flex justify-center items-center">
-                        <div className="w-1/3 flex justify-end">
+                <section className="space-y-32 flex justify-center flex-col items-center">
+                    <div id="section" className="w-11/12 2xl:w-9/12 duration-700 transition-fade ease-in-out flex flex-col sm:flex-row justify-center items-center">
+                        <div className="w-1/3 sm:w-2/3 lg:w-3/12 2xl:w-1/5 flex justify-end">
                             <Image
-                                src="/ricochet-logo.png"
-                                width={486}
-                                height={118}
-                                alt="ricochet logo"
-                                className="mr-24 w-3/5 object-cover rounded-md"
+                                src="/logo-simple.png"
+                                width={608}
+                                height={821}
+                                alt="ricochet productions logo"
+                                className="pl-4 p-0 sm:p-12 md:p-16 lg:p-0 mr-0 sm:mr-12 w-full sm:w-11/12 object-cover rounded-md"
                             />
                         </div>
-                        <div className="space-y-4 pr-20 flex flex-col w-1/2">
+                        <div className="sm:text-left text-center space-y-4 flex flex-col xl:pr-0 w-3/4 sm:w-1/2 2xl:w-2/5">
                             <h2 className={headingStyling}>Ricochet</h2>
                             <p className={pStyling}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis pariatur recusandae nobis sunt tempora voluptatem, quaerat unde soluta mollitia omnis doloremque a cum nam quibusdam, officia optio fugiat at natus? Praesentium, architecto at? Laudantium totam repudiandae natus hic accusamus. Officia modi, atque suscipit numquam perspiciatis accusantium.</p>
                         </div>
                     </div>
 
-                    <div id="section" className="duration-700 transition-fade ease-in-out flex justify-center items-center">
-                        <div className="space-y-4 pl-32 flex flex-col w-1/2">
+                    <div id="section" className="w-11/12 2xl:w-9/12 duration-700 transition-fade ease-in-out flex flex-col-reverse sm:flex-row  justify-center items-center">
+                        <div className="sm:text-left text-center space-y-4 flex flex-col w-3/4 sm:w-1/2 2xl:w-2/5">
                             <h2 className={headingStyling}>Storytelling Productions</h2>
                             <p className={pStyling}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis pariatur recusandae nobis sunt tempora voluptatem, quaerat unde soluta mollitia omnis doloremque a cum nam quibusdam, officia optio fugiat at natus? Praesentium, architecto at? Laudantium totam repudiandae natus hic accusamus. Officia modi, atque suscipit numquam perspiciatis accusantium.</p>
                             <p className={pStyling}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis pariatur recusandae nobis sunt tempora voluptatem, quaerat unde soluta mollitia omnis doloremque a cum nam quibusdam, officia optio fugiat at natus? Praesentium, architecto at? Laudantium totam repudiandae natus hic accusamus. Officia modi, atque suscipit numquam perspiciatis accusantium.</p>
                         </div>
-                        <div className="w-1/3 flex justify-start">
+                        <div className="w-3/4 sm:w-2/3 lg:w-5/12 xl:w-4/12 px-0 2xl:px-20 2xl:w-4/12 flex justify-center sm:justify-start">
                             <Image
                                 src="/studio.jpeg"
                                 width={1000}
                                 height={667}
                                 alt="podcast studio"
-                                className="ml-12 w-4/5 object-cover rounded-md"
+                                className="ml-0 sm:mb-0 mb-8 sm:ml-12 w-11/12 object-cover rounded-md"
                             />
                         </div>
                     </div>
 
                     <div id="section" className="duration-700 transition-fade ease-in-out w-screen flex justify-center">
-                        <div className="space-y-4 w-2/3 text-center justify-center items-center flex flex-col">
+                        <div className="space-y-4 w-3/4 sm:w-2/3 text-center justify-center items-center flex flex-col">
                             <h2 className={headingStyling}>Our Podcasts</h2>
                             <p className={pStyling}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis pariatur recusandae nobis sunt tempora voluptatem, quaerat unde soluta mollitia omnis doloremque a cum nam quibusdam, officia optio fugiat at natus? Praesentium, architecto at? Laudantium totam repudiandae natus hic accusamus. Officia modi, atque suscipit numquam perspiciatis accusantium.</p>
                         </div>
