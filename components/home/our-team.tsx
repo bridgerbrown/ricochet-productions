@@ -27,19 +27,19 @@ export default function OurTeam(props: any){
         <section id="team" className="w-screen relative">
             <div className="pt-40 pb-40 bg-slate-900 flex-col items-center flex justify-center ">
                 <div className="pb-20">
-                    <h1 className="border-b-4 tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Our Team</h1>
+                    <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Our Team</h1>
                 </div>
 
                 <div className="space-y-32 flex flex-col justify-center items-center">
-                    <section id="section" className="duration-700 transition-fade ease-in-out flex justify-center w-10/12">
+                    <section id="section" className="flex-col items-center sm:flex-row duration-700 transition-fade ease-in-out flex justify-center w-11/12 2xl:w-10/12">
                         <Image
                             src="/rob-headshot.png"
                             width={896}
                             height={1204}
                             alt="rob long headshot"
-                            className="w-60 h-72 object-cover rounded-md"
+                            className="mb-8 sm:mb-0 w-60 h-72 object-cover rounded-md"
                         />
-                        <div className="space-y-1 text-xl w-1/2 pl-12">
+                        <div className="space-y-1 text-xl w-11/12 text-center sm:text-left sm:w-1/2 pl-0 sm:pl-12">
                             <h1 className="drop-shadow-xs text-slate-100 text-2xl font-semibold">Rob Long</h1>
                             <h2 className="italic tracking-wide text-slate-200 text-lg pb-2">Director</h2>
                             <p className="text-slate-400 text-base pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam atque minus sint molestiae, reprehenderit aut, beatae saepe magni quidem sed voluptatum praesentium odio laudantium modi similique cupiditate provident quae voluptas earum dolorem nam iure? Necessitatibus blanditiis culpa quas deserunt, tempore, consequatur voluptatum facere architecto quia repellendus voluptatibus? Rerum quis vero harum inventore, optio sed natus magnam sunt, sint, assumenda est!</p>
@@ -56,8 +56,8 @@ export default function OurTeam(props: any){
                         </div>
                     </section>
 
-                    <section id="section" className="duration-700 transition-fade ease-in-out flex justify-center w-10/12">
-                        <div className="space-y-1 text-xl w-1/2 pr-12">
+                    <section id="section" className="flex-col-reverse items-center sm:flex-row duration-700 transition-fade ease-in-out flex justify-center w-11/12 2xl:w-10/12">
+                        <div className="space-y-1 text-xl w-1/2 text-center sm:text-left w-11/12 sm:w-1/2 pl-0 sm:pr-12">
                             <h1 className="drop-shadow-xs text-slate-100 text-2xl font-semibold">Bob Long</h1>
                             <h2 className="italic tracking-wide text-slate-200 text-lg pb-2">Producer</h2>
                             <p className="text-slate-400 text-base pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam atque minus sint molestiae, reprehenderit aut, beatae saepe magni quidem sed voluptatum praesentium odio laudantium modi similique cupiditate provident quae voluptas earum dolorem nam iure? Necessitatibus blanditiis culpa quas deserunt, tempore, consequatur voluptatum facere architecto quia repellendus voluptatibus? Rerum quis vero harum inventore, optio sed natus magnam sunt, sint, assumenda est!</p>
@@ -77,21 +77,21 @@ export default function OurTeam(props: any){
                             width={896}
                             height={1204}
                             alt="rob long headshot"
-                            className="w-60 h-72 object-cover rounded-md"
+                            className="mb-8 sm:mb-0 w-60 h-72 object-cover rounded-md"
                         />
                     </section>
 
-                    <section id="section" className="duration-700 transition-fade ease-in-out flex justify-center w-10/12">
+                    <section id="section" className="flex-col items-center sm:flex-row duration-700 transition-fade ease-in-out flex justify-center w-11/12 2xl:w-10/12">
                         <Image
                             src="/rob-headshot.png"
                             width={896}
                             height={1204}
                             alt="rob long headshot"
-                            className="w-60 h-72 object-cover rounded-md"
+                            className="mb-8 sm:mb-0 w-60 h-72 object-cover rounded-md"
                         />
-                        <div className="space-y-1 text-xl w-1/2 pl-12">
-                            <h1 className="drop-shadow-xs text-slate-100 text-2xl font-semibold">Dob Long</h1>
-                            <h2 className="italic tracking-wide text-slate-200 text-lg pb-2">God/PA</h2>
+                        <div className="space-y-1 text-xl w-11/12 text-center sm:text-left sm:w-1/2 pl-0 sm:pl-12">
+                            <h1 className="drop-shadow-xs text-slate-100 text-2xl font-semibold">Rob Long</h1>
+                            <h2 className="italic tracking-wide text-slate-200 text-lg pb-2">Director</h2>
                             <p className="text-slate-400 text-base pb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam atque minus sint molestiae, reprehenderit aut, beatae saepe magni quidem sed voluptatum praesentium odio laudantium modi similique cupiditate provident quae voluptas earum dolorem nam iure? Necessitatibus blanditiis culpa quas deserunt, tempore, consequatur voluptatum facere architecto quia repellendus voluptatibus? Rerum quis vero harum inventore, optio sed natus magnam sunt, sint, assumenda est!</p>
                             <div className="w-full flex justify-end">
                                 <Image

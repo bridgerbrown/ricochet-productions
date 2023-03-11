@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function PodcastList(props: any){
     const podcastImgStyling: string = `mb-4 sm:mb-0 hover:scale-105 transition ease-in-out cursor-pointer w-80 sm:w-96 2xl:w-96 h-88 object-cover rounded-md shadow-lg`
-    const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out flex-col sm:flex-row flex md:flex-row px-4 sm:px-6 xl:px-60 w-screen justify-center items-center`
-    const podcastTextStyling: string = `text-center sm:text-left w-full sm:flex-col justify-center items-center sm:items-left md:text-left space-y-1 pl-0 sm:pl-10 lg:pl-12 md:w-2/3`
-    const podcastImgSectionStyling: string = `w-1/2 2xl:w-1/4 flex justify-center`
+    const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out flex-col sm:flex-row flex md:flex-row px-4 sm:px-6 xl:px-60 w-11/12 justify-center items-center`
+    const podcastTextStyling: string = `text-center sm:text-left w-full sm:flex-col justify-center items-center sm:items-left md:text-left space-y-1 pl-0 sm:pl-10 lg:pl-12 md:w-2/3 2xl:w-3/5`
+    const podcastImgSectionStyling: string = `w-full sm:w-1/2 flex justify-center`
 
     function fadeIn() {
         let reveals = document.querySelectorAll("#section");
@@ -32,10 +32,10 @@ export default function PodcastList(props: any){
         <section id="podcasts" className="w-screen relative">
             <div className="pt-40 pb-52 bg-slate-900 flex-col items-center flex justify-center ">
                 <div className="pb-20">
-                    <h1 className="border-b-4 tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Podcasts</h1>
+                    <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Podcasts</h1>
                 </div>
 
-                <div className="space-y-32">
+                <div className="space-y-24 flex flex-col items-center">
                     <section id="section" className={podcastSectionStyling}>
                         <div className={podcastImgSectionStyling}>
                             <Image

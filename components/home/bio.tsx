@@ -33,7 +33,7 @@ export default function Bio(props: any){
             {/* <div className="bottom-12 right-24 absolute w-96 h-96 rounded-full bg-blue-900 opacity-5"></div> */}
             <div className="pt-40 pb-52 bg-slate-900 flex-col items-center flex justify-center ">
                 <div className="pb-20">
-                    <h1 className="border-b-4 tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">What We Do</h1>
+                    <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">About Us</h1>
                 </div>
 
                 <section className="space-y-32 flex justify-center flex-col items-center">
@@ -71,7 +71,7 @@ export default function Bio(props: any){
                     </div>
 
                     <div id="section" className="duration-700 transition-fade ease-in-out w-screen flex justify-center">
-                        <div className="space-y-4 w-3/4 sm:w-2/3 text-center justify-center items-center flex flex-col">
+                        <div className="space-y-4 w-3/4 sm:w-2/3 2xl:w-3/5 text-center justify-center items-center flex flex-col">
                             <h2 className={headingStyling}>Our Podcasts</h2>
                             <p className={pStyling}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis pariatur recusandae nobis sunt tempora voluptatem, quaerat unde soluta mollitia omnis doloremque a cum nam quibusdam, officia optio fugiat at natus? Praesentium, architecto at? Laudantium totam repudiandae natus hic accusamus. Officia modi, atque suscipit numquam perspiciatis accusantium.</p>
                         </div>
