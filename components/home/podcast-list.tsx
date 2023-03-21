@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function PodcastList(props: any){
     const podcastImgStyling: string = `mb-4 sm:mb-0 hover:scale-105 transition ease-in-out cursor-pointer w-80 sm:w-96 2xl:w-96 h-88 object-cover rounded-md shadow-lg`
-    const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out flex-col sm:flex-row flex md:flex-row px-4 sm:px-6 xl:px-60 w-11/12 justify-center items-center`
-    const podcastTextStyling: string = `text-center sm:text-left w-full sm:flex-col justify-center items-center sm:items-left md:text-left space-y-1 pl-0 sm:pl-10 lg:pl-12 md:w-2/3 2xl:w-3/5`
-    const podcastImgSectionStyling: string = `w-full sm:w-1/2 flex justify-center`
+    const podcastSectionStyling: string = `duration-700 transition-fade ease-in-out flex-col sm:flex-row flex md:flex-row px-4 sm:px-6 w-11/12 justify-center items-center`
+    const podcastTextStyling: string = `text-center sm:text-left w-full sm:flex-col justify-center items-center sm:items-left md:text-left space-y-1 pl-0 sm:pl-10 md:w-2/3 2xl:w-4/5`
+    const podcastImgSectionStyling: string = `w-full sm:w-1/2 2xl:w-1/3 flex justify-center`
 
     function fadeIn() {
         let reveals = document.querySelectorAll("#section");
