@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'wave-gradient': "url('/blue-bg.jpg')",
       }
     },
   },

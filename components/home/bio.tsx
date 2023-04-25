@@ -27,10 +27,7 @@ export default function Bio(props: any){
       }, [])
 
     return(
-        <section id="about" className="w-screen relative">
-            {/* <div className="top-1/2 -left-96 absolute w-96 h-96 rounded-full bg-blue-900 opacity-5"></div>
-            <div className="top-72 -right-60 absolute  w-96 h-96 rounded-full bg-blue-900 opacity-5"></div> */}
-            {/* <div className="bottom-12 right-24 absolute w-96 h-96 rounded-full bg-blue-900 opacity-5"></div> */}
+        <section id="about" className="w-screen">
             <div className="pt-40 pb-52 bg-slate-900 flex-col items-center flex justify-center ">
                 <div className="pb-20">
                     <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">About Us</h1>
@@ -40,7 +37,7 @@ export default function Bio(props: any){
                     <div id="section" className="w-11/12 2xl:w-9/12 duration-700 transition-fade ease-in-out flex flex-col sm:flex-row justify-center items-center">
                         <div className="pb-4 sm:pb-0 flex justify-end">
                             <Image
-                                src="/logo-simple.png"
+                                src="/r-prod-simple-new.png"
                                 width={608}
                                 height={821}
                                 alt="ricochet productions logo"

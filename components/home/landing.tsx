@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Navbar from "../navbar";
 
 export default function Landing(){
     return(
-        <main className="h-screen w-screen pb-24 bg-slate-900 flex items-center justify-center">
+        <main className="relative top-0 h-screen w-screen pb-24 bg-wave-gradient flex flex-col items-center justify-center">
+            <Navbar />
             <div className="w-full flex justify-center">
                 <div className="sm:w-1/3 xl:w-1/2 flex justify-end pr-4">
                     <Image
-                        src="/logo-simple.png"
+                        src="/r-prod-simple-new.png"
                         width={608}
                         height={821}
                         alt="ricochet productions logo"

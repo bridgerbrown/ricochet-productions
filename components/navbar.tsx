@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar(){
-    const navItemStyle: string = `text-slate-100 hover:transition hover:opacity-80 text-base md:text-lg font-light tracking-wider font-sans`
+    const navItemStyle: string = `text-slate-100 hover:transition hover:border-b-4 hover:border-blue-300 border-b-4 border-transparent text-base md:text-lg font-light tracking-wider font-sans`
     const burgerItemStyle: string = "w-full text-center text-2xl font-light tracking-wide active:bg-white/10 transition border-transparent border hover:bg-slate-800 hover:transition px-7 py-5"
     const [backdropMenu, setBackdropMenu] = useState<boolean>(false)
 
@@ -12,19 +12,19 @@ export default function Navbar(){
     }
 
     return(
-        <div>
-            <nav id="navbar" className="pr-8 flex justify-between items-center bg-slate-900 h-20 relative w-screen">
+        <div className="absolute top-0 ">
+            <nav id="navbar" className="pr-8 flex justify-between items-center bg-transparent h-20 relative w-screen">
                 <div className="w-96">
                     <Image
-                        src="/logo.png"
+                        src="/logo-trans.png"
                         width={3374}
                         height={829}
                         alt="ricochet productions logo"
-                        className="w-10/12"
+                        className="ml-2 mt-2 w-11/12"
                     />
                     {/* <h1 className="text-blue-300 text-2xl font-base tracking-wide">Ricochet Productions</h1> */}
                 </div>
-                <div className="hidden sm:flex mt-2 space-x-4">
+                <div className="hidden sm:flex mt-4 space-x-8">
                     <a href="#navbar" className={navItemStyle}>
                         Home
                     </a>

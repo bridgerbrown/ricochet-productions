@@ -17,7 +17,6 @@ export default function Home() {
         <title>Ricochet Productions</title>
       </Head>
       <div className='bg-white relative w-screen min-h-screen scroll-smooth'>
-        <Navbar />
         <Landing />
         <Mission />
         <RicochetBio />
