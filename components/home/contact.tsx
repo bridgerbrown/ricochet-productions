@@ -9,7 +9,7 @@ export default function Contact(props: any){
     }
 
     return(
-        <section id="contact" className="flex flex-col items-center justify-center w-screen pt-28 pb-72 bg-slate-900">
+        <section id="contact" className="flex flex-col items-center justify-center w-screen pt-28 pb-72">
             <div className="w-11/12 text-center">
                 <div className="flex justify-center pb-20">
                     <h1 className="w-min tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">Contact</h1>

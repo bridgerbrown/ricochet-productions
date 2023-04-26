@@ -19,11 +19,15 @@ export default function Home() {
       <div className='bg-white relative w-screen min-h-screen scroll-smooth'>
         <Landing />
         <Mission />
-        <RicochetBio />
-        <PodcastList />
-        <OurTeam />
-        <Contact />
-        <Footer />
+        <div className='bg-gradient-to-b from-[#161b31] to-[#080b19]'>
+          <RicochetBio />
+          <PodcastList />
+          <OurTeam />
+        </div>
+        <div className='bg-[#080b19]'>
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </>
   )
