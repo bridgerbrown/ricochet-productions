@@ -2,8 +2,10 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
-      <Head />
+    <Html lang="en" className='scroll-smooth bg-[#080b19] overflow-x-hidden' style={{scrollBehavior:'smooth'}}>
+      <Head>
+        <title>Ricochet Productions</title>
+      </Head>
       <body>
         <Main />
         <NextScript />

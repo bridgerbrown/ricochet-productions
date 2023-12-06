@@ -4,7 +4,7 @@ import Navbar from "../sections/Navbar";
 
 export default function Landing(){
   return(
-    <main className="bg-center relative top-0 h-screen w-screen pb-24 bg-wave-gradient flex flex-col items-center justify-center">
+    <main className="bg-cover bg-center relative top-0 h-screen w-screen pb-24 bg-wave-gradient flex flex-col items-center justify-center">
       <Navbar />
       <div className="w-full flex justify-center">
         <div className="sm:w-1/3 xl:w-1/2 flex justify-end pr-4">

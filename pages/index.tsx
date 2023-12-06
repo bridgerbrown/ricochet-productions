@@ -11,22 +11,16 @@ import PodcastList from '@/components/sections/Podcasts'
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Ricochet Productions</title>
-      </Head>
-      <div className='bg-white relative w-screen min-h-screen scroll-smooth'>
-        <Landing />
-        <div className='bg-gradient-to-b from-[#161b31] to-[#080b19]'>
-          <RicochetBio />
-          <PodcastList />
-          <Team />
-        </div>
-        <div className='bg-[#080b19]'>
-          <Contact />
-          <Footer />
-        </div>
+    <div className='relative w-screen min-h-screen scroll-smooth'>
+      <Landing />
+      <div className='bg-gradient-to-b from-[#161b31] to-[#080b19]'>
+        <PodcastList />
+        <Team />
       </div>
-    </>
+      <div className='bg-[#080b19]'>
+        <Contact />
+        <Footer />
+      </div>
+    </div>
   )
 }

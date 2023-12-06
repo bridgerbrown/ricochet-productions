@@ -35,7 +35,7 @@ export default function PodcastList(props: any){
           </h1>
         </div>
 
-        <div className="space-y-24 flex flex-col items-center">
+        <div className="space-y-36 flex flex-col items-center">
           {
             podcasts.map((item: any) => (
               <Podcast
