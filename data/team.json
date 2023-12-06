@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "name": "Peter Robinson",
+    "title": "",
+    "twitter": "",
+    "description": [
+      "Peter Robinson is a distinguished author, television host, presidential speechwriter for Ronald Reagan, and currently  the Rupert Murdoch Research Fellow at the Hoover institution at Stanford University. He is the author of one of the most influential political speeches of the 20th Century – Ronald Reagan’s famous Berlin Wall speech in 1987 – and his show, Uncommon Knowledge, has appeared on both legacy broadcast television and streams on YouTube and FoxNation, where it garners millions of views per episode."
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Rob Long",
+    "title": "",
+    "twitter": "",
+    "description": [
+      "Rob Long  is a writer and television producer based in New York City. In the 90’s he was a writer and executive producer for the long-running television program Cheers. In addition to Ricochet and his television work, Long is a contributing editor for National Review, and a columnist at The Washington Examiner. He hosts the weekly podcast commentary Martini Shot, and appears regularly on political commentary shows, including Gutfeld! on Fox News."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Scott Immergut",
+    "title": "",
+    "twitter": "",
+    "description": [
+      "Scott Immergut is the former CEO of the Ricochet Audio Network and is currently the Executive Producer of Uncommon Knowledge with Peter Robinson and Good Fellows for The Hoover Institution at Stanford University as well as multiple podcasts for a number of different entities. Scott started his career in the entertainment business, first as a journalist at Premiere Magazine and then as a creative executive at the Walt Disney Company, where he supervised a number of feature films and television projects. He moved into digital entertainment with jobs at two entertainment startups."
+    ]
+  }
+]
