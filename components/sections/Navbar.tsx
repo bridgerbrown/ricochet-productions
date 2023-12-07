@@ -20,9 +20,8 @@ export default function Navbar(){
                         width={3374}
                         height={829}
                         alt="ricochet productions logo"
-                        className="ml-2 mt-2 w-10/12"
+                        className="ml-2 mt-2 w-8/12 sm:w-10/12"
                     />
-                    {/* <h1 className="text-blue-300 text-2xl font-base tracking-wide">Ricochet Productions</h1> */}
                 </div>
                 <div className="hidden sm:flex mt-2 space-x-8">
                     <a href="#navbar" className={navItemStyle}>

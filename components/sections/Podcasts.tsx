@@ -30,7 +30,7 @@ export default function PodcastList(props: any){
     <section id="podcasts" className="w-screen relative">
       <div className="pt-40 pb-52 flex-col items-center flex justify-center ">
         <div className="pb-20">
-          <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl">
+          <h1 className="text-center tracking-wide drop-shadow-sm text-slate-100 font-semibold text-3xl sm:text-4xl">
             Currently In Production
           </h1>
         </div>
