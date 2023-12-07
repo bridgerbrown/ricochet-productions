@@ -6,11 +6,11 @@ export default function TeamMember(props: any) {
 
   return (
     <section id="section" className="flex-col items-center sm:flex-col duration-700 transition-fade ease-in-out flex justify-center">
-      <div className="space-y-3 text-xl w-11/12 text-center sm:text-center sm:max-w-[1000px]">
-        <h1 className="drop-shadow-xs text-slate-100 text-2xl font-semibold">
+      <div className="space-y-3 w-11/12 sm:max-w-[1000px]">
+        <h1 className="text-center drop-shadow-xs text-slate-100 text-2xl sm:text-3xl font-semibold">
           {data.name}
         </h1>
-        <p className="text-slate-300 text-base font-light pb-4">
+        <p className="text-left text-slate-300 text-base sm:text-lg font-light pb-4">
           {data.description[0]}
         </p>
         <div className="w-full flex justify-end">

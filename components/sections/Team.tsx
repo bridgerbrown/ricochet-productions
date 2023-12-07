@@ -28,7 +28,7 @@ export default function OurTeam(props: any){
     <section id="team" className="w-screen relative">
       <div className="pt-40 pb-40 flex-col items-center flex justify-center ">
         <div className="pb-20">
-          <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-3xl sm:text-4xl">
+          <h1 className="tracking-wide drop-shadow-sm text-slate-100 font-semibold text-4xl sm:text-5xl">
             Our Team
           </h1>
         </div>

@@ -27,20 +27,20 @@ export default function Podcast(props: any) {
         }
       </div>
       <div className={data.image ? textCSS : noImgTextCSS}>
-        <h2 className="text-center text-blue-300 text-2xl font-semibold">
+        <h2 className="text-center text-blue-300 text-2xl sm:text-3xl font-semibold">
           {data.title}
         </h2>
-        <h3 className="text-center text-slate-100 pb-6 text-lg italic">
+        <h3 className="text-center text-slate-100 pb-6 text-lg sm:text-xl italic">
           {data.subtitle ? data.subtitle : ""}
         </h3>
-        <div className="space-y-4 text-slate-300 font-light">
+        <div className="text-base sm:text-lg space-y-4 text-slate-300 font-light">
           {
             readMore
             ? 
             data.description.map((paragraph: string, index: number) => 
               <p 
                 key={index}
-                className={paragraph.length > 130 || index == 0 ? "indent-6" : ""}
+                className={paragraph.length > 130 || index == 0 ? "" : ""}
               >
                 {paragraph}
               </p>
@@ -51,7 +51,7 @@ export default function Podcast(props: any) {
               &&
               <p 
                 key={index}
-                className={paragraph.length > 130 || index == 0 ? "indent-6" : ""}
+                className={paragraph.length > 130 || index == 0 ? "" : ""}
               >
                 {index == 3 ? paragraph.slice(0, 110) + "...": paragraph}
               </p>

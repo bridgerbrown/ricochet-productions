@@ -16,14 +16,14 @@ export default function Landing(){
             className="w-36 sm:w-52 xl:w-80 object-scale-down"
           />
         </div>
-        <div className="sm:pr-0 lg:pr-4 mr-0 xl:mr-28 flex justify-center flex-col space-y-2 xl:space-y-4 text-xl w-2/3 sm:w-1/2 sm:px-0 lg:px-4">
-          <h1 className="drop-shadow-2xl text-blue-300 font-bold text-xl sm:text-3xl xl:text-5xl">
+        <div className="sm:pr-0 lg:pr-4 mr-0 xl:mr-28 flex justify-center flex-col space-y-2 xl:space-y-4 w-2/3 sm:w-1/2 sm:px-0 lg:px-4">
+          <h1 className="drop-shadow-2xl text-blue-300 font-bold text-2xl sm:text-4xl xl:text-6xl">
             Ricochet Productions
           </h1>
-          <h2 className="pr-1.5 sm:text-lg md:text-2xl text-base text-slate-200">
+          <h2 className="pr-1.5 sm:text-xl md:text-3xl text-lg text-slate-200">
             Storytelling through audio
           </h2>
-          <h3 className="text-slate-400 font-light text-sm md:text-lg sm:text-base w-11/12 sm:w-9/12 max-w-[490px]">
+          <h3 className="text-slate-400 font-light text-base md:text-xl sm:text-lg w-11/12 sm:w-9/12 max-w-[490px]">
             Long form audio documentaries on topics and issues for an engaged and thoughtful audience.
           </h3>
         </div>
