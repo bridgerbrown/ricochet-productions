@@ -6,8 +6,8 @@ export default function Podcast(props: any) {
   const [readMore, setReadMore] = useState(false);
   const { data } = props;
   const sectionCSS: string = `duration-700 transition-fade ease-in-out flex-col sm:flex-row flex md:flex-row px-4 sm:px-6 w-11/12 justify-center items-center`
-  const noImgSectionCSS: string = `duration-700 transition-fade ease-in-out flex-col flex px-4 sm:px-6 w-11/12 sm:max-w-[1000px] justify-center items-center`
   const textCSS: string = `text-center sm:text-left w-full sm:flex-col justify-center items-center sm:items-left md:text-left space-y-1 pl-0 sm:pl-10 w-2/3 sm:max-w-[1000px]`
+  const noImgSectionCSS: string = `duration-700 transition-fade ease-in-out flex-col flex px-4 sm:px-6 w-11/12 sm:max-w-[1000px] justify-center items-center`
   const noImgTextCSS: string = `sm:flex-col justify-center items-center sm:items-left space-y-1`
   const imgCSS: string = `mb-4 sm:mb-0 hover:scale-105 transition ease-in-out cursor-pointer w-80 sm:w-96 2xl:w-96 h-88 object-cover rounded-md shadow-lg`
   const imgSectionCSS: string = `w-full sm:w-1/2 2xl:w-1/3 flex justify-center`
