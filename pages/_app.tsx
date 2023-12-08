@@ -38,13 +38,13 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Ricochet Productions</title>
         <meta property="og:title" content="Ricochet Productions" />
-        <meta property="og:image" content={"/logo.png"} />
+        <meta property="og:image" content={"/r-prod-new.png"} />
         <meta
           property="og:description"
           content="Storytelling through audio. Long form audio documentaries on topics and issues for an engaged and thoughtful audience."
         />
         <meta name="title" content="Ricochet Productions" />
-        <meta name="image" content={"/logo.png"} />
+        <meta name="image" content={"/r-prod-new.png"} />
         <meta
           name="description"
           content="Storytelling through audio. Long form audio documentaries on topics and issues for an engaged and thoughtful audience."
